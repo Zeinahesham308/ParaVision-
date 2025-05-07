@@ -18,20 +18,20 @@ ParaVision-/
 ├── Streamlit_HPF/ # Python GUI <br>
 │ ├── venv/ # Virtual environment <br>
 │ └── main.py # Streamlit app <br>
-│
+│<br>
 ├── inputs/ # Input images <br>
 ├── outputs/ # Output results + time.txt <br>
-│
+│<br>
 ├── HighPassFilter_seq.cpp # Sequential C++ <br>
 ├── HighPassFilter_omp.cpp # OpenMP C++ <br>
 ├── HighPassFilter_mpi.cpp # MPI C++ <br>
-│
+│<br>
 ├── HighPassFilter_30.sln # Visual Studio Solution <br>
 ├── HighPassFilter_30.vcxproj # VS Project File <br>
 ├── .gitignore <br>
 └── README.md <br>
 
-
+<br>
 ---
 
 ## ⚙️ Build Instructions (C++)
