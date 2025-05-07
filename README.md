@@ -3,6 +3,11 @@
 ParaVision is a hybrid C++ + Python project designed to demonstrate the performance of different high-pass filtering implementations — **Sequential**, **OpenMP**, and **MPI** — on  images.
 
 ***Python is used for GUI only ***
+<video width="720" controls>
+  <source src="https://github.com/Zeinahesham308/ParaVision-/raw/main/Demo/streamlit-main-2025-05-07-18-05-68.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 
 It includes:
 - ⚙️ Optimized C++ image filters (Sequential / OpenMP / MPI)
