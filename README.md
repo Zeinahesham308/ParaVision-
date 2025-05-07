@@ -1,6 +1,6 @@
 # 🧠 ParaVision - High-Pass Image Filter (C++ Accelerated + Streamlit GUI)
 
-ParaVision is a hybrid C++ + Python project designed to demonstrate the performance of different high-pass filtering implementations — **Sequential**, **OpenMP**, and **MPI** — on grayscale images.
+ParaVision is a hybrid C++ + Python project designed to demonstrate the performance of different high-pass filtering implementations — **Sequential**, **OpenMP**, and **MPI** — on  images.
 
 ***Python is used for GUI only ***
 
