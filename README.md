@@ -5,7 +5,8 @@ ParaVision is a hybrid C++ + Python project designed to demonstrate the performa
 ***Python is used for GUI only ***
 <br>
 
-[📽️] DEMO (https://github.com/Zeinahesham308/ParaVision-/raw/main/Demo/demo-thumbnail.png)](https://github.com/Zeinahesham308/ParaVision-/raw/main/Demo/streamlit-main-2025-05-07-18-05-68.webm)
+[📽️] [![Demo Preview](https://github.com/Zeinahesham308/ParaVision-/raw/main/Demo/demo-thumbnail.png)](https://github.com/Zeinahesham308/ParaVision-/raw/main/Demo/streamlit-main-2025-05-07-18-05-68.webm)
+
 
 
 
