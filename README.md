@@ -15,21 +15,21 @@ It includes:
 ## 📁 Project Structure
 ParaVision-/
 │
-├── Streamlit_HPF/ # Python GUI
-│ ├── venv/ # Virtual environment
-│ └── main.py # Streamlit app
+├── Streamlit_HPF/ # Python GUI <br>
+│ ├── venv/ # Virtual environment <br>
+│ └── main.py # Streamlit app <br>
 │
-├── inputs/ # Input images
-├── outputs/ # Output results + time.txt
+├── inputs/ # Input images <br>
+├── outputs/ # Output results + time.txt <br>
 │
-├── HighPassFilter_seq.cpp # Sequential C++
-├── HighPassFilter_omp.cpp # OpenMP C++
-├── HighPassFilter_mpi.cpp # MPI C++
+├── HighPassFilter_seq.cpp # Sequential C++ <br>
+├── HighPassFilter_omp.cpp # OpenMP C++ <br>
+├── HighPassFilter_mpi.cpp # MPI C++ <br>
 │
-├── HighPassFilter_30.sln # Visual Studio Solution
-├── HighPassFilter_30.vcxproj # VS Project File
-├── .gitignore
-└── README.md
+├── HighPassFilter_30.sln # Visual Studio Solution <br>
+├── HighPassFilter_30.vcxproj # VS Project File <br>
+├── .gitignore <br>
+└── README.md <br>
 
 
 ---
