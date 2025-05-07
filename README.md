@@ -12,7 +12,7 @@ It includes:
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure <br>
 ParaVision-/
 │
 ├── Streamlit_HPF/ # Python GUI <br>
@@ -36,7 +36,7 @@ ParaVision-/
 
 ## ⚙️ Build Instructions (C++)
 
-### 🖥️ 1. Sequential
+### 🖥️ 1. Sequential 
 
 #### 🧱 Prerequisites:
 - Visual Studio with Developer Command Prompt (`x64 Native Tools for VS`)
@@ -49,8 +49,8 @@ cl /EHsc /I C:\path\to\opencv\build\include HighPassFilter_seq.cpp ^
  /link /LIBPATH:C:\path\to\opencv\build\x64\vc16\lib opencv_world4110.lib 
 ```
 
-🚀 2. OpenMP
-🧱 Prerequisites:
+#### 🚀 2. OpenMP 
+#### 🧱 Prerequisites:
 MSYS2 + OpenCV installed via pacman
 
 pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-opencv
@@ -66,8 +66,8 @@ g++ -fopenmp HighPassFilter_omp.cpp -std=c++11 -o HighPassFilter_omp.exe \
 
 
 
-🧪 3. MPI
-🧱 Prerequisites:
+#### 🧪 3. MPI
+#### 🧱 Prerequisites:
 Microsoft MPI SDK
 
 Visual Studio Developer Command Prompt
@@ -86,8 +86,8 @@ cl /EHsc /openmp ^
  opencv_world4110.lib msmpi.lib
 ```
 
-🌐 Python GUI (Streamlit)
-🧱 Prerequisites:
+## 🌐 Python GUI (Streamlit)
+#### 🧱 Prerequisites:
 Python 3.7+
 pip
 🛠 Setup:
@@ -98,7 +98,7 @@ python -m venv venv
 venv\Scripts\activate     # Windows
 pip install streamlit opencv-python
 ```
-▶️ Run:
+## ▶️ Run:
 streamlit run main.py
 
 Upload your image via the browser
@@ -118,7 +118,7 @@ View original and filtered output side-by-side
 Execution details appear below
 
 
-📌 Notes
+## 📌 Notes
 Default kernel size: 3x3
 
 Kernel = center pixel = size² - 1, rest -1
