@@ -1,0 +1,27 @@
+# Build artifacts
+*.obj
+*.exe
+*.dll
+*.pdb
+*.idb
+*.txt
+
+# Visual Studio folders
+.vs/
+x64/
+Debug/
+Release/
+
+# VS user-specific files
+*.vcxproj.user
+
+# Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Output images/logs
+inputs/
+outputs/*.png
+outputs/time.txt
+
